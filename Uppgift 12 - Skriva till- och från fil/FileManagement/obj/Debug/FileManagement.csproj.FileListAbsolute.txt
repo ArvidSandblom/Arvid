@@ -1,0 +1,14 @@
+C:\Users\Tim\Documents\Axevalla\Programmering\FileManagement\FileManagement\bin\Debug\FileManagement.exe.config
+C:\Users\Tim\Documents\Axevalla\Programmering\FileManagement\FileManagement\bin\Debug\FileManagement.exe
+C:\Users\Tim\Documents\Axevalla\Programmering\FileManagement\FileManagement\bin\Debug\FileManagement.pdb
+C:\Users\Tim\Documents\Axevalla\Programmering\FileManagement\FileManagement\obj\Debug\FileManagement.csproj.AssemblyReference.cache
+C:\Users\Tim\Documents\Axevalla\Programmering\FileManagement\FileManagement\obj\Debug\FileManagement.csproj.CoreCompileInputs.cache
+C:\Users\Tim\Documents\Axevalla\Programmering\FileManagement\FileManagement\obj\Debug\FileManagement.exe
+C:\Users\Tim\Documents\Axevalla\Programmering\FileManagement\FileManagement\obj\Debug\FileManagement.pdb
+E:\Unity Projects\axevalla-programmering-grund\Uppgift 12 - Skriva till- och från fil\FileManagement\bin\Debug\FileManagement.exe.config
+E:\Unity Projects\axevalla-programmering-grund\Uppgift 12 - Skriva till- och från fil\FileManagement\bin\Debug\FileManagement.exe
+E:\Unity Projects\axevalla-programmering-grund\Uppgift 12 - Skriva till- och från fil\FileManagement\bin\Debug\FileManagement.pdb
+E:\Unity Projects\axevalla-programmering-grund\Uppgift 12 - Skriva till- och från fil\FileManagement\obj\Debug\FileManagement.csproj.AssemblyReference.cache
+E:\Unity Projects\axevalla-programmering-grund\Uppgift 12 - Skriva till- och från fil\FileManagement\obj\Debug\FileManagement.csproj.CoreCompileInputs.cache
+E:\Unity Projects\axevalla-programmering-grund\Uppgift 12 - Skriva till- och från fil\FileManagement\obj\Debug\FileManagement.exe
+E:\Unity Projects\axevalla-programmering-grund\Uppgift 12 - Skriva till- och från fil\FileManagement\obj\Debug\FileManagement.pdb

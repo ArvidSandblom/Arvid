@@ -1,0 +1,271 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:140.0) Gecko/20100101 Firefox/140.0" version="28.0.6">
+  <diagram name="Sida-1" id="eh6YCfkuYKg_eBWSDnpG">
+    <mxGraphModel dx="1302" dy="1263" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="8jKJSfbiv10mUwpKD3th-1" value="Textspel" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontSize=22;" vertex="1" parent="1">
+          <mxGeometry x="384" y="50" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="8jKJSfbiv10mUwpKD3th-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="8jKJSfbiv10mUwpKD3th-2" target="8jKJSfbiv10mUwpKD3th-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8jKJSfbiv10mUwpKD3th-2" value="Start" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="354" y="130" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="8jKJSfbiv10mUwpKD3th-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="8jKJSfbiv10mUwpKD3th-3" target="8jKJSfbiv10mUwpKD3th-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8jKJSfbiv10mUwpKD3th-3" value="Skapa en &quot;random seed&quot;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="341" y="250" width="146" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8jKJSfbiv10mUwpKD3th-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.524;entryY=-0.001;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="8jKJSfbiv10mUwpKD3th-5" target="8jKJSfbiv10mUwpKD3th-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8jKJSfbiv10mUwpKD3th-5" value="Deklarera variabler" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="354" y="350" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8jKJSfbiv10mUwpKD3th-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;shape=flexArrow;fillColor=#d5e8d4;strokeColor=#82b366;" edge="1" parent="1" source="8jKJSfbiv10mUwpKD3th-7" target="8jKJSfbiv10mUwpKD3th-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8jKJSfbiv10mUwpKD3th-7" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Variabellista&lt;/h1&gt;&lt;p&gt;&lt;font face=&quot;Courier New&quot;&gt;string playerName = &quot;&quot;;&lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;font face=&quot;Courier New&quot;&gt;int playerHP = 100;&lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;font face=&quot;Courier New&quot;&gt;string weaponType = &quot;&quot;;&lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;font face=&quot;Courier New&quot;&gt;int weaponChoice;&lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;font face=&quot;Courier New&quot;&gt;int pMaxDamage;&lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;font face=&quot;Courier New&quot;&gt;int pMinDamage;&lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;font face=&quot;Courier New&quot;&gt;int playerDamage;&lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;font face=&quot;Courier New&quot;&gt;int enemyHP = 100;&lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;font face=&quot;Courier New&quot;&gt;int eMaxDamage = 10;&lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;font face=&quot;Courier New&quot;&gt;int eMinDamage = 5;&lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;font face=&quot;Courier New&quot;&gt;int enemyDamage;&lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="89.5" y="101.25" width="200" height="357.5" as="geometry" />
+        </mxCell>
+        <mxCell id="8jKJSfbiv10mUwpKD3th-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="8jKJSfbiv10mUwpKD3th-9" target="8jKJSfbiv10mUwpKD3th-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8jKJSfbiv10mUwpKD3th-9" value="Välkomna spelaren och&lt;br&gt;förklara reglerna" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="447.5" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8jKJSfbiv10mUwpKD3th-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="8jKJSfbiv10mUwpKD3th-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="409.9999999999998" y="650" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8jKJSfbiv10mUwpKD3th-11" value="Be om spelarens namn&lt;br&gt;&lt;i&gt;IN: playerName&lt;/i&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="550" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8jKJSfbiv10mUwpKD3th-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="8jKJSfbiv10mUwpKD3th-39" target="8jKJSfbiv10mUwpKD3th-44">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8jKJSfbiv10mUwpKD3th-39" value="&lt;div&gt;Välkomna spelaren&amp;nbsp;&lt;/div&gt;&lt;div&gt;och börja spelet&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="327" y="650" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8jKJSfbiv10mUwpKD3th-118" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="8jKJSfbiv10mUwpKD3th-44" target="8jKJSfbiv10mUwpKD3th-116">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8jKJSfbiv10mUwpKD3th-130" value="true" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=#CCFF99;" vertex="1" connectable="0" parent="8jKJSfbiv10mUwpKD3th-118">
+          <mxGeometry x="-0.2565" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8jKJSfbiv10mUwpKD3th-44" value="while" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="367" y="760" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="8jKJSfbiv10mUwpKD3th-45" value="playerHP &amp;gt; 0 &amp;amp;&amp;amp; enemyHP &amp;gt; 0" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="315" y="800" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="8jKJSfbiv10mUwpKD3th-70" value="Be spelaren välja ett&lt;br&gt;vapen." style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="327" y="1000" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8jKJSfbiv10mUwpKD3th-94" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="8jKJSfbiv10mUwpKD3th-114">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="406" y="1060" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8jKJSfbiv10mUwpKD3th-95" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="8jKJSfbiv10mUwpKD3th-103" target="8jKJSfbiv10mUwpKD3th-105">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8jKJSfbiv10mUwpKD3th-96" value="case 1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=#CCFF99;" vertex="1" connectable="0" parent="8jKJSfbiv10mUwpKD3th-95">
+          <mxGeometry x="-0.0602" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8jKJSfbiv10mUwpKD3th-97" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="8jKJSfbiv10mUwpKD3th-103" target="8jKJSfbiv10mUwpKD3th-107">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="539" y="1350" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8jKJSfbiv10mUwpKD3th-98" value="case 2" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=#CCFF99;" vertex="1" connectable="0" parent="8jKJSfbiv10mUwpKD3th-97">
+          <mxGeometry x="0.2638" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8jKJSfbiv10mUwpKD3th-99" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="8jKJSfbiv10mUwpKD3th-103" target="8jKJSfbiv10mUwpKD3th-109">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="539" y="1430" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8jKJSfbiv10mUwpKD3th-100" value="case 3" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=#CCFF99;" vertex="1" connectable="0" parent="8jKJSfbiv10mUwpKD3th-99">
+          <mxGeometry x="0.5144" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8jKJSfbiv10mUwpKD3th-101" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="8jKJSfbiv10mUwpKD3th-103" target="8jKJSfbiv10mUwpKD3th-114">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="539" y="1210" />
+              <mxPoint x="406" y="1210" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8jKJSfbiv10mUwpKD3th-102" value="default" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=#FF9999;" vertex="1" connectable="0" parent="8jKJSfbiv10mUwpKD3th-101">
+          <mxGeometry x="0.0405" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8jKJSfbiv10mUwpKD3th-103" value="&lt;div&gt;switch&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212));&quot;&gt;weaponChoice&lt;/span&gt;&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="499" y="1230" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="8jKJSfbiv10mUwpKD3th-104" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="8jKJSfbiv10mUwpKD3th-105">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="539" y="1210" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="809" y="1270" />
+              <mxPoint x="809" y="1210" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8jKJSfbiv10mUwpKD3th-105" value="weaponType = &quot;sword&quot;&lt;br&gt;pMaxDamage = 12&lt;br&gt;pMinDamage = 10" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="639" y="1240" width="147" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8jKJSfbiv10mUwpKD3th-106" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="8jKJSfbiv10mUwpKD3th-107">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="809" y="1270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8jKJSfbiv10mUwpKD3th-107" value="weaponType = &quot;axe&quot;&lt;br&gt;pMaxDamage = 14&lt;br&gt;pMindamage = 8" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="639" y="1320" width="147" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8jKJSfbiv10mUwpKD3th-108" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="8jKJSfbiv10mUwpKD3th-109">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="809" y="1350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8jKJSfbiv10mUwpKD3th-109" value="weaponType = &quot;hammer&quot;&lt;br&gt;pMaxDamage = 16&lt;br&gt;pMinDamage = 4" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="639" y="1400" width="147" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8jKJSfbiv10mUwpKD3th-110" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="8jKJSfbiv10mUwpKD3th-114" target="8jKJSfbiv10mUwpKD3th-103">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8jKJSfbiv10mUwpKD3th-111" value="true" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=#CCFF99;" vertex="1" connectable="0" parent="8jKJSfbiv10mUwpKD3th-110">
+          <mxGeometry x="-0.2075" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8jKJSfbiv10mUwpKD3th-112" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="8jKJSfbiv10mUwpKD3th-114">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="406" y="1350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8jKJSfbiv10mUwpKD3th-113" value="false" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=#FF9999;" vertex="1" connectable="0" parent="8jKJSfbiv10mUwpKD3th-112">
+          <mxGeometry x="-0.2761" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8jKJSfbiv10mUwpKD3th-114" value="while" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="366" y="1230" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="8jKJSfbiv10mUwpKD3th-115" value="&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212));&quot;&gt;weaponType == &quot;&quot;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="346" y="1270" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="8jKJSfbiv10mUwpKD3th-119" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="8jKJSfbiv10mUwpKD3th-116" target="8jKJSfbiv10mUwpKD3th-70">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8jKJSfbiv10mUwpKD3th-116" value="Skriv ut spelaren och fiendens hälsa" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="327" y="890" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8jKJSfbiv10mUwpKD3th-124" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="8jKJSfbiv10mUwpKD3th-120" target="8jKJSfbiv10mUwpKD3th-123">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8jKJSfbiv10mUwpKD3th-120" value="Beräkna skada;&lt;br&gt;Dra av hälsa från&lt;br&gt;spelare och fiende" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="347" y="1350" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8jKJSfbiv10mUwpKD3th-122" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fillColor=#d5e8d4;strokeColor=#82b366;shape=flexArrow;" edge="1" parent="1" source="8jKJSfbiv10mUwpKD3th-121" target="8jKJSfbiv10mUwpKD3th-120">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8jKJSfbiv10mUwpKD3th-121" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Random&lt;/h1&gt;&lt;div&gt;För att tilldela ett slumpat värde så måste vi använda oss utav en funktion. Vi har tillgång till denna funktion tack vare våra importerade bibliotek (using System högst upp i programmet).&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;p&gt;Exempel på hur vi tilldelar ett randomvärde till spelarens &lt;i&gt;faktiska &lt;/i&gt;skada:&lt;/p&gt;&lt;p&gt;&lt;font face=&quot;Courier New&quot;&gt;playerDamage = Random.Next(pMinDamage, pMaxDamage);&lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="30" y="1200" width="270" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="8jKJSfbiv10mUwpKD3th-126" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="8jKJSfbiv10mUwpKD3th-123" target="8jKJSfbiv10mUwpKD3th-125">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8jKJSfbiv10mUwpKD3th-123" value="&lt;div&gt;Skriv ut hur mycket skada spelaren&amp;nbsp;&lt;/div&gt;&lt;div&gt;gjorde och hur mycket skada fienden&lt;/div&gt;&lt;div&gt;&amp;nbsp;gjorde&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="289.5" y="1460" width="233" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8jKJSfbiv10mUwpKD3th-129" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="8jKJSfbiv10mUwpKD3th-125" target="8jKJSfbiv10mUwpKD3th-44">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="20" y="1600" />
+              <mxPoint x="20" y="740" />
+              <mxPoint x="407" y="740" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8jKJSfbiv10mUwpKD3th-125" value="&lt;div&gt;Återställ&amp;nbsp;&lt;/div&gt;&lt;div&gt;relevanta variabler&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="346" y="1570" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8jKJSfbiv10mUwpKD3th-128" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;shape=flexArrow;fillColor=#d5e8d4;strokeColor=#82b366;" edge="1" parent="1" source="8jKJSfbiv10mUwpKD3th-127">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="469.9999999999998" y="1600" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8jKJSfbiv10mUwpKD3th-127" value="Vi använder oss utav en while-loop för att välja vapen. Denna while-loop kräver att variabeln &quot;weaponChoice&quot; innehåller värdet: &quot;&quot; (dvs. att den är tom).&amp;nbsp;&lt;br&gt;&lt;br&gt;&lt;div&gt;Eftersom weaponType har ett värde just nu så måste vi återställa det, annars kommer inte spelaren kunna välja vapen igen. Detta gör man enkelt genom att skriva:&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;weaponType = &quot;&quot;;&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="550" y="1560" width="180" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="8jKJSfbiv10mUwpKD3th-138" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="8jKJSfbiv10mUwpKD3th-131" target="8jKJSfbiv10mUwpKD3th-136">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8jKJSfbiv10mUwpKD3th-140" value="true" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=#CCFF99;" vertex="1" connectable="0" parent="8jKJSfbiv10mUwpKD3th-138">
+          <mxGeometry x="-0.6336" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8jKJSfbiv10mUwpKD3th-139" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="8jKJSfbiv10mUwpKD3th-131" target="8jKJSfbiv10mUwpKD3th-137">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8jKJSfbiv10mUwpKD3th-141" value="false" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=#FF9999;" vertex="1" connectable="0" parent="8jKJSfbiv10mUwpKD3th-139">
+          <mxGeometry x="-0.6923" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8jKJSfbiv10mUwpKD3th-131" value="&lt;div&gt;&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212));&quot;&gt;if&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212));&quot;&gt;playerHP &amp;gt; 0&lt;/span&gt;&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="630" y="820" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="8jKJSfbiv10mUwpKD3th-134" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.695;exitY=-0.03;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="8jKJSfbiv10mUwpKD3th-131">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="447.04999999999995" y="800.1000000000001" as="sourcePoint" />
+            <mxPoint x="639" y="801" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="670" y="800" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8jKJSfbiv10mUwpKD3th-135" value="false" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=#FF9999;" vertex="1" connectable="0" parent="8jKJSfbiv10mUwpKD3th-134">
+          <mxGeometry x="-0.0335" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8jKJSfbiv10mUwpKD3th-143" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="8jKJSfbiv10mUwpKD3th-136" target="8jKJSfbiv10mUwpKD3th-142">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8jKJSfbiv10mUwpKD3th-136" value="Spelaren vann!" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="519" y="940" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8jKJSfbiv10mUwpKD3th-144" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="8jKJSfbiv10mUwpKD3th-137" target="8jKJSfbiv10mUwpKD3th-142">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8jKJSfbiv10mUwpKD3th-137" value="&lt;div&gt;Spelaren&amp;nbsp;&lt;/div&gt;&lt;div&gt;förlorade&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="700" y="940" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8jKJSfbiv10mUwpKD3th-142" value="Slut" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="610" y="1060" width="120" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
