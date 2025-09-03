@@ -1,0 +1,7 @@
+C:\Users\Axevalla\source\repos\Upg. 1\Upg. 1\bin\Debug\Upg. 1.exe.config
+C:\Users\Axevalla\source\repos\Upg. 1\Upg. 1\bin\Debug\Upg. 1.exe
+C:\Users\Axevalla\source\repos\Upg. 1\Upg. 1\bin\Debug\Upg. 1.pdb
+C:\Users\Axevalla\source\repos\Upg. 1\Upg. 1\obj\Debug\Upg. 1.csproj.AssemblyReference.cache
+C:\Users\Axevalla\source\repos\Upg. 1\Upg. 1\obj\Debug\Upg. 1.csproj.CoreCompileInputs.cache
+C:\Users\Axevalla\source\repos\Upg. 1\Upg. 1\obj\Debug\Upg. 1.exe
+C:\Users\Axevalla\source\repos\Upg. 1\Upg. 1\obj\Debug\Upg. 1.pdb

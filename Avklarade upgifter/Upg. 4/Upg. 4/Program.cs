@@ -1,0 +1,42 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Upg._4
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+
+            Console.WriteLine("Vad heter du? ");
+            string namn = Console.ReadLine();
+            Console.WriteLine("Vilket år är du född? ");
+            string år = Console.ReadLine();
+
+            int intÅr = int.Parse(år);
+
+            int totAge = DateTime.Now.Year - int.Parse(år);
+            Console.WriteLine("Hej " + namn + ", du är antingen " + totAge + " eller " + (totAge - 1) + " år gammal.");
+
+            if (DateTime.Now.Year - intÅr < 20)
+            {
+                Console.WriteLine("Du är ett barn");
+            }
+            else if (DateTime.Now.Year - intÅr > 20 && DateTime.Now.Year -)
+            {
+                Console.WriteLine("Du är en ung vuxen");
+            }
+            else if (DateTime.Now.Year - intÅr > 30 && DateTime.Now.Year - intÅr < 51)
+            {
+                Console.WriteLine("Du ligger i medelålder");
+            }
+            else
+            {
+                Console.WriteLine("404 Answer not found");
+            }
+        }
+    }
+}
