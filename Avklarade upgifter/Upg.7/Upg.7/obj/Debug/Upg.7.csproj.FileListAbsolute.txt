@@ -6,3 +6,11 @@ C:\Users\Axevalla\source\repos\Upg.7\Upg.7\obj\Debug\Upg.7.csproj.CoreCompileInp
 C:\Users\Axevalla\source\repos\Upg.7\Upg.7\obj\Debug\Upg.7.exe
 C:\Users\Axevalla\source\repos\Upg.7\Upg.7\obj\Debug\Upg.7.pdb
 C:\Users\Axevalla\source\repos\Upg.7\Upg.7\obj\Debug\Upg.7.exe.config
+C:\Users\Axevalla\Desktop\Arvid\Avklarade upgifter\Upg.7\Upg.7\bin\Debug\Upg.7.exe.config
+C:\Users\Axevalla\Desktop\Arvid\Avklarade upgifter\Upg.7\Upg.7\bin\Debug\Upg.7.exe
+C:\Users\Axevalla\Desktop\Arvid\Avklarade upgifter\Upg.7\Upg.7\bin\Debug\Upg.7.pdb
+C:\Users\Axevalla\Desktop\Arvid\Avklarade upgifter\Upg.7\Upg.7\obj\Debug\Upg.7.csproj.AssemblyReference.cache
+C:\Users\Axevalla\Desktop\Arvid\Avklarade upgifter\Upg.7\Upg.7\obj\Debug\Upg.7.exe.config
+C:\Users\Axevalla\Desktop\Arvid\Avklarade upgifter\Upg.7\Upg.7\obj\Debug\Upg.7.csproj.CoreCompileInputs.cache
+C:\Users\Axevalla\Desktop\Arvid\Avklarade upgifter\Upg.7\Upg.7\obj\Debug\Upg.7.exe
+C:\Users\Axevalla\Desktop\Arvid\Avklarade upgifter\Upg.7\Upg.7\obj\Debug\Upg.7.pdb

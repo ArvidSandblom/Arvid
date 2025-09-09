@@ -16,8 +16,12 @@ namespace Upg._7
             int playerHP = 100;
             string weaponType = "";
             int weaponChoice;
-            int pMaxDamage;
-            int pMinDamage;
+            int pMaxDamage1;
+            int pMinDamage1;
+            int pMaxDamage2;
+            int pMinDamage2;
+            int pMaxDamage3;
+            int pMinDamage3;
             int pDamage;
             int mobHP = 100;
             int mobMaxDamage;
@@ -35,11 +39,15 @@ namespace Upg._7
             Console.ReadKey();
             Console.WriteLine("Du och din motståndare kommer slå varandra tills någon av er når 0 HP");
             Console.ReadKey();
+            Console.WriteLine("OBS! Alla val i spelet kommer göras men siffrorna 1-9 beroende på hur många val det finns att göra");
+            Console.ReadKey();
             Console.WriteLine("Du kommer få välja mellan tre vapen som har olika mängd skada. ");
             Console.ReadKey();
             Console.WriteLine("Du kommer få välja nytt vapen att slå med innan varje slag ");
             Console.ReadKey();
-            Console.WriteLine("Dessa vapen har tre olika slag: Lätt, Mellan och Hårt.Mellan slag gör mer skada men är svårare att träffa.");
+            Console.WriteLine("Dessa vapen har tre olika slag: Lätt, Mellan och Hårt.");
+            Console.ReadKey();
+            Console.WriteLine("Mellan slag gör mer skada men är svårare att träffa.");
             Console.ReadKey();
             Console.WriteLine("Lätta slag är lättare att träffa men gör mindre skada.");
             Console.ReadKey();
@@ -55,9 +63,35 @@ namespace Upg._7
             Console.ReadKey();
             while (playerHP > 0 && mobHP > 0)
             {
-                Console.WriteLine(playerName + " har " + playerHP + "\n" + mobType + " har " + mobHP);
+                Console.WriteLine(playerName + " har " + playerHP + "HP" + "\n" + mobType + " har " + mobHP + "HP");
                 Console.WriteLine("Välj ditt vapen:\n1. Svärd\n2. Yxa\n3. Spjut");
+                weaponChoice = int.Parse(Console.ReadLine());
 
+                while (weaponType == "")
+                {
+                    switch (weaponChoice)
+                    {
+                        case 1:
+                            weaponType = "Sword";
+                            pMinDamage1 = 1;
+                            pMaxDamage1 = 10;
+                            break;
+                        case 2:
+                            weaponType = "Axe";
+                            pMinDamage1 = 5;
+                            pMaxDamage1 = 10;
+                            break;
+                        case 3:
+                            weaponType = "Spear";
+                            pMinDamage1 = 1;
+                            pMaxDamage1 = 10;
+                            break;
+                        default:
+                            Console.WriteLine("Ogiltigt val, försök igen.");
+                            weaponChoice = int.Parse(Console.ReadLine());
+                            break;
+                    }
+                }
             }
             
 
