@@ -14,26 +14,27 @@ namespace Upg._7
             Random rnd = new Random();
             string playerName = "";
             int playerHP = 100;
-            string weaponType = "";
             int weaponChoice;
-            int pMaxDamage1;
-            int pMinDamage1;
-            int pMaxDamage2;
-            int pMinDamage2;
-            int pMaxDamage3;
-            int pMinDamage3;
-            int pDamage;
+            bool weaponError = false;
+            int pMaxDamage = 0;
+            int pMinDamage = 0;
+            int pDamage = 0;
+            int pHitChance = 0;
             int mobHP = 100;
             int mobMaxDamage;
             int mobMinDamage;
             int mobDamage;
+            int hitType;
+            bool error = false;
             string mobType = "Goblin";
+
+            // Introduction
 
             Console.WriteLine("Välkommen till denna stridssimulator!");
             Console.ReadKey();
             Console.WriteLine("Vad heter din karaktär?");
             playerName = Console.ReadLine();
-            Console.WriteLine("Välkommen " + playerName + " till detta textbaserade simulatorspeletL");
+            Console.WriteLine("Välkommen " + playerName + " till detta textbaserade simulatorspel");
             Console.ReadKey();
             Console.WriteLine("Reglerna är följande: ");
             Console.ReadKey();
@@ -53,47 +54,137 @@ namespace Upg._7
             Console.ReadKey();
             Console.WriteLine("Hårda slag är svårast att träffa men gör mest skada");
             Console.ReadKey();
-            Console.WriteLine("De tre vapnen har olika sannoliketer att träffa de olika slagen");
+            Console.WriteLine("Din motståndare kommer välja mellan lätt, mellan eller hårt slag");
+            Console.ReadKey();
+            Console.WriteLine("Din motståndare har en kniv med följande slag:");
+            Console.WriteLine("Lätt slag: 1-10 skada, 90% chans att träffa\nMellan slag: 5-15 skada, 70% chans att träffa\nHårt slag: 10-20 skada, 50% chans att träffa:");
+            Console.ReadKey();
+            Console.WriteLine("Du har tre vapnen med olika sannoliketer att träffa de olika slagen\nNu får du välja:");
             Console.ReadKey();
             Console.WriteLine("Svärd:\nLätt slag: 1-10 skada, 80% att träffa\nMellan slag: 5-15 skada, 60% chans att träffa\nHårt slag: 10-30 skada med 40% att träffa");
             Console.ReadKey();
-            Console.WriteLine("Yxa:\nLätt slag: 5-10 skada, 70% att träffa\nMellan slag: 5-20 skada, 50% chans att träffa\nHårt slag: 15-35 skada med 30% att träffa");
+            Console.WriteLine("Yxa:\nLätt slag: 5-10 skada, 70% att träffa\nMellan slag: 5-20 skada, 50% chans att träffa\nHårt slag: 20-50 skada med 20% att träffa");
             Console.ReadKey();
-            Console.WriteLine("Spjut:\nLätt slag: 1-10 skada, 90% att träffa\nMellan slag: 10-20 skada, 40% chans att träffa\nHårt slag: 20-40 skada med 25% att träffa");
+            Console.WriteLine("Spjut:\nLätt slag: 1-10 skada, 90% att träffa\nMellan slag: 10-20 skada, 40% chans att träffa\nHårt slag: 20-40 skada med 30% att träffa");
             Console.ReadKey();
+
+            // Start fight
+
             while (playerHP > 0 && mobHP > 0)
             {
-                Console.WriteLine(playerName + " har " + playerHP + "HP" + "\n" + mobType + " har " + mobHP + "HP");
-                Console.WriteLine("Välj ditt vapen:\n1. Svärd\n2. Yxa\n3. Spjut");
-                weaponChoice = int.Parse(Console.ReadLine());
-
-                while (weaponType == "")
+                while (weaponError == false)
                 {
-                    switch (weaponChoice)
+                    // Player attack
+                    if (error == true) { Console.WriteLine(playerName + " har " + playerHP + "HP" + "\n" + mobType + " har " + mobHP + "HP"); }
+                    error = false;
+                    Console.WriteLine("Välj ditt vapen:\n1. Svärd\n2. Yxa\n3. Spjut");
+                    weaponChoice = int.Parse(Console.ReadLine());
+                    Console.WriteLine("1. Lätt slag\n2. Mellan Slag\n3. Hårt slag");
+                    hitType = int.Parse(Console.ReadLine());
+
+                    // Weapon and hit type choice
+                    // Sword
+                    if (weaponChoice == 1)
                     {
-                        case 1:
-                            weaponType = "Sword";
-                            pMinDamage1 = 1;
-                            pMaxDamage1 = 10;
-                            break;
-                        case 2:
-                            weaponType = "Axe";
-                            pMinDamage1 = 5;
-                            pMaxDamage1 = 10;
-                            break;
-                        case 3:
-                            weaponType = "Spear";
-                            pMinDamage1 = 1;
-                            pMaxDamage1 = 10;
-                            break;
-                        default:
-                            Console.WriteLine("Ogiltigt val, försök igen.");
-                            weaponChoice = int.Parse(Console.ReadLine());
-                            break;
+                        switch (hitType)
+                        {
+                            case 1:
+                                pMinDamage = 1;
+                                pMaxDamage = 10;
+                                pHitChance = 80;
+                                pDamage = rnd.Next(pMinDamage, pMaxDamage + 1);
+                                break;
+                            case 2:
+                                pMinDamage = 5;
+                                pMaxDamage = 15;
+                                pHitChance = 60;
+                                pDamage = rnd.Next(pMinDamage, pMaxDamage + 1);
+                                break;
+                            case 3:
+                                pMinDamage = 10;
+                                pMaxDamage = 30;
+                                pHitChance = 40;
+                                pDamage = rnd.Next(pMinDamage, pMaxDamage + 1);
+                                break;
+                        }
+                    }
+                    // Axe
+                    else if (weaponChoice == 2)
+                    {
+                        switch (hitType)
+                        {
+                            case 1:
+                                pMinDamage = 5;
+                                pMaxDamage = 10;
+                                pHitChance = 70;
+                                pDamage = rnd.Next(pMinDamage, pMaxDamage + 1);
+                                break;
+                            case 2:
+                                pMinDamage = 5;
+                                pMaxDamage = 20;
+                                pHitChance = 50;
+                                pDamage = rnd.Next(pMinDamage, pMaxDamage + 1);
+                                break;
+                            case 3:
+                                pMinDamage = 20;
+                                pMaxDamage = 50;
+                                pHitChance = 20;
+                                pDamage = rnd.Next(pMinDamage, pMaxDamage + 1);
+                                break;
+                        }
+                    }
+                    // Spear
+                    else if (weaponChoice == 3)
+                    {
+                        switch (hitType)
+                        {
+                            case 1:
+                                pMinDamage = 1;
+                                pMaxDamage = 10;
+                                pHitChance = 90;
+                                pDamage = rnd.Next(pMinDamage, pMaxDamage + 1);
+                                break;
+                            case 2:
+                                pMinDamage = 10;
+                                pMaxDamage = 20;
+                                pHitChance = 40;
+                                pDamage = rnd.Next(pMinDamage, pMaxDamage + 1);
+                                break;
+                            case 3:
+                                pMinDamage = 20;
+                                pMaxDamage = 40;
+                                pHitChance = 30;
+                                pDamage = rnd.Next(pMinDamage, pMaxDamage + 1);
+                                break;
+                        }
+                    }
+                    // Error handling
+                    else
+                    {
+                        Console.WriteLine("Ogiltigt val, försök igen.");
+                        error = true;
+                        continue;
                     }
                 }
+                // Player attack roll
+                int hitRoll = rnd.Next(1, 101);
+                Console.WriteLine("Du rullade " + hitRoll);
+                if (hitRoll <= pHitChance)
+                {
+                    mobHP -= pDamage;
+                    Console.WriteLine("Du träffade " + mobType + " med " + pDamage + " skada!");
+                }
+                else
+                {
+                    Console.WriteLine("Du missade ditt slag! Du rullade");
+                }
+
+                // Mob hit type
+
+
+
             }
-            
+
 
         }
     }

@@ -14,24 +14,26 @@ namespace Upg._4
             Console.WriteLine("Vad heter du? ");
             string namn = Console.ReadLine();
             Console.WriteLine("Vilket år är du född? ");
-            string år = Console.ReadLine();
+            int år = int.Parse(Console.ReadLine());
 
-            int intÅr = int.Parse(år);
-
-            int totAge = DateTime.Now.Year - int.Parse(år);
+            int totAge = DateTime.Now.Year - år;
             Console.WriteLine("Hej " + namn + ", du är antingen " + totAge + " eller " + (totAge - 1) + " år gammal.");
 
-            if (DateTime.Now.Year - intÅr < 20)
+            if (DateTime.Now.Year - år < 20)
             {
                 Console.WriteLine("Du är ett barn");
             }
-            else if (DateTime.Now.Year - intÅr > 20 && DateTime.Now.Year -)
+            else if (DateTime.Now.Year - år > 20 && DateTime.Now.Year - år < 30)
             {
                 Console.WriteLine("Du är en ung vuxen");
             }
-            else if (DateTime.Now.Year - intÅr > 30 && DateTime.Now.Year - intÅr < 51)
+            else if (DateTime.Now.Year - år > 30 && DateTime.Now.Year - år < 51)
             {
                 Console.WriteLine("Du ligger i medelålder");
+            }
+            else if (DateTime.Now.Year - år > 50)
+            {
+                Console.WriteLine("Du är gammal");
             }
             else
             {
