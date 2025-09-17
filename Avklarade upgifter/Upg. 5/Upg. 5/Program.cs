@@ -12,7 +12,8 @@ namespace Upg._5
         {
             int saldo = 500;
 
-            while (saldo > 0) {
+            while (saldo > 0) 
+            {
                 Console.WriteLine("Du har " + saldo + " kronor på kontot");
                 Console.WriteLine("Vill du ta ut pengar pengar från ditt konto? [Y/N]");
                 string val = Console.ReadLine();

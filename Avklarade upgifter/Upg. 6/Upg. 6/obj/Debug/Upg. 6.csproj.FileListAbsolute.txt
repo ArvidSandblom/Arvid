@@ -6,3 +6,11 @@ C:\Users\Axevalla\source\repos\Upg. 6\Upg. 6\obj\Debug\Upg. 6.csproj.CoreCompile
 C:\Users\Axevalla\source\repos\Upg. 6\Upg. 6\obj\Debug\Upg. 6.exe
 C:\Users\Axevalla\source\repos\Upg. 6\Upg. 6\obj\Debug\Upg. 6.pdb
 C:\Users\Axevalla\source\repos\Upg. 6\Upg. 6\obj\Debug\Upg. 6.exe.config
+C:\Users\Axevalla\Desktop\Arvid\Avklarade upgifter\Upg. 6\Upg. 6\bin\Debug\Upg. 6.exe.config
+C:\Users\Axevalla\Desktop\Arvid\Avklarade upgifter\Upg. 6\Upg. 6\bin\Debug\Upg. 6.exe
+C:\Users\Axevalla\Desktop\Arvid\Avklarade upgifter\Upg. 6\Upg. 6\bin\Debug\Upg. 6.pdb
+C:\Users\Axevalla\Desktop\Arvid\Avklarade upgifter\Upg. 6\Upg. 6\obj\Debug\Upg. 6.csproj.AssemblyReference.cache
+C:\Users\Axevalla\Desktop\Arvid\Avklarade upgifter\Upg. 6\Upg. 6\obj\Debug\Upg. 6.exe.config
+C:\Users\Axevalla\Desktop\Arvid\Avklarade upgifter\Upg. 6\Upg. 6\obj\Debug\Upg. 6.csproj.CoreCompileInputs.cache
+C:\Users\Axevalla\Desktop\Arvid\Avklarade upgifter\Upg. 6\Upg. 6\obj\Debug\Upg. 6.exe
+C:\Users\Axevalla\Desktop\Arvid\Avklarade upgifter\Upg. 6\Upg. 6\obj\Debug\Upg. 6.pdb

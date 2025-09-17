@@ -25,14 +25,29 @@ namespace Upg._6
                     switch (val.ToLower())
                     {
                         case "stor":
+                            if (pengar < 50)
+                            {
+                                Console.WriteLine("Du har inte råd med en stor glass.");
+                                break;
+                            }
                             pengar -= 50;
                             glassar.Add("Stor glass");
                             break;
                         case "mellan":
+                            if (pengar < 25)
+                            {
+                                Console.WriteLine("Du har inte råd med en mellan glass.");
+                                break;
+                            }
                             pengar -= 25;
                             glassar.Add("Mellan glass");
                             break;
                         case "liten":
+                            if (pengar < 10)
+                            {
+                                Console.WriteLine("Du har inte råd med en liten glass.");
+                                break;
+                            }
                             pengar -= 10;
                             glassar.Add("Liten glass");
                             break;

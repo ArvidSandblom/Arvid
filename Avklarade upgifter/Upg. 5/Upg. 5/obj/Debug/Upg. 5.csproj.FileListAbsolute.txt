@@ -5,3 +5,11 @@ C:\Users\Axevalla\source\repos\Upg. 5\Upg. 5\obj\Debug\Upg. 5.csproj.AssemblyRef
 C:\Users\Axevalla\source\repos\Upg. 5\Upg. 5\obj\Debug\Upg. 5.csproj.CoreCompileInputs.cache
 C:\Users\Axevalla\source\repos\Upg. 5\Upg. 5\obj\Debug\Upg. 5.exe
 C:\Users\Axevalla\source\repos\Upg. 5\Upg. 5\obj\Debug\Upg. 5.pdb
+C:\Users\Axevalla\Desktop\Arvid\Avklarade upgifter\Upg. 5\Upg. 5\bin\Debug\Upg. 5.exe.config
+C:\Users\Axevalla\Desktop\Arvid\Avklarade upgifter\Upg. 5\Upg. 5\bin\Debug\Upg. 5.exe
+C:\Users\Axevalla\Desktop\Arvid\Avklarade upgifter\Upg. 5\Upg. 5\bin\Debug\Upg. 5.pdb
+C:\Users\Axevalla\Desktop\Arvid\Avklarade upgifter\Upg. 5\Upg. 5\obj\Debug\Upg. 5.csproj.AssemblyReference.cache
+C:\Users\Axevalla\Desktop\Arvid\Avklarade upgifter\Upg. 5\Upg. 5\obj\Debug\Upg. 5.exe.config
+C:\Users\Axevalla\Desktop\Arvid\Avklarade upgifter\Upg. 5\Upg. 5\obj\Debug\Upg. 5.csproj.CoreCompileInputs.cache
+C:\Users\Axevalla\Desktop\Arvid\Avklarade upgifter\Upg. 5\Upg. 5\obj\Debug\Upg. 5.exe
+C:\Users\Axevalla\Desktop\Arvid\Avklarade upgifter\Upg. 5\Upg. 5\obj\Debug\Upg. 5.pdb
