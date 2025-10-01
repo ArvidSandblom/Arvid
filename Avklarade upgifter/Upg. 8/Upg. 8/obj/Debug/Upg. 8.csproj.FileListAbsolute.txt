@@ -1,0 +1,8 @@
+C:\Users\Axevalla\Desktop\Arvid\Avklarade upgifter\Upg. 8\Upg. 8\obj\Debug\Upg. 8.csproj.AssemblyReference.cache
+C:\Users\Axevalla\Desktop\Arvid\Avklarade upgifter\Upg. 8\Upg. 8\obj\Debug\Upg. 8.csproj.CoreCompileInputs.cache
+C:\Users\Axevalla\Desktop\Arvid\Avklarade upgifter\Upg. 8\Upg. 8\bin\Debug\Upg. 8.exe.config
+C:\Users\Axevalla\Desktop\Arvid\Avklarade upgifter\Upg. 8\Upg. 8\bin\Debug\Upg. 8.exe
+C:\Users\Axevalla\Desktop\Arvid\Avklarade upgifter\Upg. 8\Upg. 8\bin\Debug\Upg. 8.pdb
+C:\Users\Axevalla\Desktop\Arvid\Avklarade upgifter\Upg. 8\Upg. 8\obj\Debug\Upg. 8.exe
+C:\Users\Axevalla\Desktop\Arvid\Avklarade upgifter\Upg. 8\Upg. 8\obj\Debug\Upg. 8.pdb
+C:\Users\Axevalla\Desktop\Arvid\Avklarade upgifter\Upg. 8\Upg. 8\obj\Debug\Upg. 8.exe.config

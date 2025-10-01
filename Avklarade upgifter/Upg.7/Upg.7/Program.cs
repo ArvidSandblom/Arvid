@@ -219,6 +219,8 @@ namespace Upg._7
                         break;
                 }
 
+                //Mob attack roll
+                Console.Clear();
                 Console.WriteLine(mob + " försöker slå dig!");
                 mobHitRoll = rnd.Next(1, 101);
                 switch (mobHitType)
