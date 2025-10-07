@@ -78,7 +78,7 @@ namespace Upg._8
                     aiCash += bet;
                     Console.WriteLine("AI vann denna runda med " + aiChoice + " mot " + playerChoice + " och du förlorade " + bet + "kr!");
                 }
-            }
+            }         
         }
     }
 }

@@ -28,8 +28,7 @@ namespace Upg._7
             int mobHitChance = 0;
             int hitType;
             string mob = "Goblin";
-            int mobHitRoll = 0;
-
+            int mobHitRoll = 0;            
             // Introduction
 
             Console.WriteLine("Välkommen till denna stridssimulator!");

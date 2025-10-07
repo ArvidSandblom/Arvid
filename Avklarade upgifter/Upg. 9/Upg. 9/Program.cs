@@ -22,18 +22,20 @@ namespace Upg._9
             while (sats)
             {
                 Console.WriteLine("Sök efter ett namn: (Använd 0 för en komplett lista)");
-                int choice = int.Parse(Console.ReadLine());
-                choice = choice - 1;
+                int choice = int.Parse(Console.ReadLine());                
                 if (choice > 0 && choice < 4)
                 {
-                    Console.WriteLine("Du sökte efter" + namn[choice]);
+                    Console.WriteLine("Du sökte efter: " + namn[choice-1]);
                 }
-                    
-
-
+                else if (choice == 0)
+                {
+                    Console.WriteLine("Du får alla namn: ");
+                    for (int i = 0; i <= 3; i++)
+                    {
+                        Console.WriteLine(namn[i]);
+                    }
+                }
             }
-
-
         }
     }
 }
