@@ -1,10 +1,10 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Axevalla\\Desktop\\Arvid\\Avklarade upgifter\\Upg. 9\\",
+  "WorkspaceRootPath": "C:\\Users\\Hem\\Desktop\\Arvid\\Avklarade upgifter\\Upg. 9\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{BAEB9853-9111-47B6-A37C-8191D0E28121}|Upg. 9\\Upg. 9.csproj|c:\\users\\axevalla\\desktop\\arvid\\avklarade upgifter\\upg. 9\\upg. 9\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BAEB9853-9111-47B6-A37C-8191D0E28121}|Upg. 9\\Upg. 9.csproj|solutionrelative:upg. 9\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Hem\\Desktop\\Arvid\\Avklarade upgifter\\Upg. 9\\Upg. 9\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Upg. 9\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -20,14 +20,12 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Axevalla\\Desktop\\Arvid\\Avklarade upgifter\\Upg. 9\\Upg. 9\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\Hem\\Desktop\\Arvid\\Avklarade upgifter\\Upg. 9\\Upg. 9\\Program.cs",
               "RelativeDocumentMoniker": "Upg. 9\\Program.cs",
-              "ToolTip": "C:\\Users\\Axevalla\\Desktop\\Arvid\\Avklarade upgifter\\Upg. 9\\Upg. 9\\Program.cs",
+              "ToolTip": "C:\\Users\\Hem\\Desktop\\Arvid\\Avklarade upgifter\\Upg. 9\\Upg. 9\\Program.cs",
               "RelativeToolTip": "Upg. 9\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-01T09:41:04.62Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-01T09:41:04.62Z"
             }
           ]
         }

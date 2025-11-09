@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Hem\\source\\repos\\Final uppgift\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A60A260A-897C-48DA-BE9F-74DD6B63E5D3}|Final uppgift\\Final uppgift.csproj|c:\\users\\hem\\source\\repos\\final uppgift\\final uppgift\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A60A260A-897C-48DA-BE9F-74DD6B63E5D3}|Final uppgift\\Final uppgift.csproj|solutionrelative:final uppgift\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Hem\\source\\repos\\Final uppgift\\Final uppgift\\Program.cs",
+              "RelativeDocumentMoniker": "Final uppgift\\Program.cs",
+              "ToolTip": "C:\\Users\\Hem\\source\\repos\\Final uppgift\\Final uppgift\\Program.cs",
+              "RelativeToolTip": "Final uppgift\\Program.cs",
+              "ViewState": "AgIAAFEAAAAAAAAAAAAcwHoAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-09T00:57:02.73Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

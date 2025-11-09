@@ -1,9 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Axevalla\\Desktop\\Arvid\\Avklarade upgifter\\Upg.7\\",
+  "WorkspaceRootPath": "C:\\Users\\Hem\\Desktop\\Arvid\\Avklarade upgifter\\Upg.7\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7890500E-767B-4593-9CCD-86DC59F92F01}|Upg.7\\Upg.7.csproj|c:\\users\\axevalla\\desktop\\arvid\\avklarade upgifter\\upg.7\\upg.7\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7890500E-767B-4593-9CCD-86DC59F92F01}|Upg.7\\Upg.7.csproj|c:\\users\\hem\\desktop\\arvid\\avklarade upgifter\\upg.7\\upg.7\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7890500E-767B-4593-9CCD-86DC59F92F01}|Upg.7\\Upg.7.csproj|solutionrelative:upg.7\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -20,11 +20,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Axevalla\\Desktop\\Arvid\\Avklarade upgifter\\Upg.7\\Upg.7\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\Hem\\Desktop\\Arvid\\Avklarade upgifter\\Upg.7\\Upg.7\\Program.cs",
               "RelativeDocumentMoniker": "Upg.7\\Program.cs",
-              "ToolTip": "C:\\Users\\Axevalla\\Desktop\\Arvid\\Avklarade upgifter\\Upg.7\\Upg.7\\Program.cs",
+              "ToolTip": "C:\\Users\\Hem\\Desktop\\Arvid\\Avklarade upgifter\\Upg.7\\Upg.7\\Program.cs",
               "RelativeToolTip": "Upg.7\\Program.cs",
-              "ViewState": "AgIAABwAAAAAAAAAAAAgwDAAAABdAAAAAAAAAA==",
+              "ViewState": "AgIAAIsAAAAAAAAAAAAgwKwAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-08T13:35:38.052Z",
               "EditorCaption": ""
