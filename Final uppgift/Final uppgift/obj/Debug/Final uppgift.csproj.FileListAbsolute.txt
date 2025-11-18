@@ -6,3 +6,11 @@ C:\Users\Hem\source\repos\Final uppgift\Final uppgift\bin\Debug\Final uppgift.pd
 C:\Users\Hem\source\repos\Final uppgift\Final uppgift\obj\Debug\Final uppgift.exe
 C:\Users\Hem\source\repos\Final uppgift\Final uppgift\obj\Debug\Final uppgift.pdb
 C:\Users\Hem\source\repos\Final uppgift\Final uppgift\obj\Debug\Final uppgift.exe.config
+C:\Users\Admin\Desktop\Arvid\Final uppgift\Final uppgift\bin\Debug\Final uppgift.exe.config
+C:\Users\Admin\Desktop\Arvid\Final uppgift\Final uppgift\bin\Debug\Final uppgift.exe
+C:\Users\Admin\Desktop\Arvid\Final uppgift\Final uppgift\bin\Debug\Final uppgift.pdb
+C:\Users\Admin\Desktop\Arvid\Final uppgift\Final uppgift\obj\Debug\Final uppgift.csproj.AssemblyReference.cache
+C:\Users\Admin\Desktop\Arvid\Final uppgift\Final uppgift\obj\Debug\Final uppgift.exe.config
+C:\Users\Admin\Desktop\Arvid\Final uppgift\Final uppgift\obj\Debug\Final uppgift.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\Arvid\Final uppgift\Final uppgift\obj\Debug\Final uppgift.exe
+C:\Users\Admin\Desktop\Arvid\Final uppgift\Final uppgift\obj\Debug\Final uppgift.pdb

@@ -15,7 +15,13 @@ namespace Final_uppgift
             string pClass;
             int pHP;
             int pMP;
-            bool classError = false;
+            bool classError = false;            
+            string armour;
+            string weapon;
+            string staff;
+
+            float gold = 5;
+
             WriteLine("After losing your father to a fever you have been wandering the wastes of the east for weeks");
             WriteLine("You find yourself alone with naught but your sword and a will to live");
             WriteLine("As you walk along a dusty road, you see a figure in the distance standing in front of a set of large imposing doors");
@@ -28,40 +34,58 @@ namespace Final_uppgift
             WriteLine("I see great potential in you, but first you must choose your path");
             Console.ReadLine();
             Console.Clear();
-            WriteLine("Whilst listening to the old man he describes how this dungeon may unlock gift talents and abilities to it's challengers");
+            WriteLine("Whilst listening to the old man he describes how this dungeon may unlock gifts, talents and abilities to its challengers");
             WriteLine("However, he warns that the dungeon is filled with many dangers and that only the strongest will survive");
             WriteLine("Choose wisely adventurer, for your choice will shape your destiny");
             WriteLine("Choose your class:\n1. Warrior\n2. Mage\n3. Rogue");
 
             WriteLine("Enter the number corresponding to your choice: ");
             pClass = Console.ReadLine();
+            Console.Clear();
+            while (!classError)
+            {
+                switch (pClass)
+                {
+                    case "1":
+                        pClass = "Warrior";
+                        pHP = 150;
+                        pMP = 50;
+                         
+                        classError = false;
+                        break;
+                    case "2":
+                        pClass = "Mage";
+                        pHP = 100;
+                        pMP = 150;
 
-            switch (pClass)
+                        classError = false;
+                        break;
+                    case "3":
+                        pClass = "Rogue";
+                        pHP = 120;
+                        pMP = 80;
+                        classError = false;
+                        break;
+                    default:                        
+                        WriteLine("YOU FOOL! THAT IS NOT A VALID CLASS!");
+                        WriteLine("I will give you the choice to choose again and this time, do it wisely");
+                        classError = true;
+                        continue;
+                }
+            }
+            classError = false;    
+
+            WriteLine($"Now that is an excellent class.\nI believe {pClass} will suit you quite well");
+            WriteLine("He begins opening the doors and you are greeted by a huge stone chamber with ancient statues of soldiers lining the walls");
+            WriteLine("At the end of the hall you are met with three doors of different colours");
+            WriteLine("As you gaze upon the doors you remember something the old man told you: 'When it comes to the doors, common knowledge applies'");
+            WriteLine("Now you must choose one of the doors: 1.Red, 2.Black or 3.Yellow");
+            string choice = Console.ReadLine();
+            switch (choice)
             {
                 case "1":
-                    pClass = "Warrior";
-                    pHP = 150;
-                    pMP = 50;
-                    break;
-                case "2":
-                    pClass = "Mage";
-                    pHP = 100;
-                    pMP = 150;
-                    break;
-                case "3":
-                    pClass = "Rogue";
-                    pHP = 120;
-                    pMP = 80;
-                    break;
-                default:
-                    pClass = "Peasant";
-                    pHP = 80;
-                    pMP = 20;
-                    WriteLine("YOU FOOL! THAT IS NOT A VALID CLASS!");
-                    WriteLine("GOOD LUCK SURVIVING AS A PEASANT!");
                     break;
             }
-
         }
         static void WriteLine(string text, int sleepMs = 35)
         {
@@ -108,21 +132,25 @@ namespace Final_uppgift
 
             Console.Write("\n");
         }
-        static void castSpell(string spellName)
+        void castSpell(string spellName)
         {
 
         }
-        static void attack(string attackType)
+        void attack(string attackType)
         {
 
         }
-        static void useItem(string itemName)
+        void useItem(string itemName)
         {
 
         }
-        static void shop()
+        void shop()
         {
 
+        }
+        void showInventory()
+        {
+                        
         }
     }
 }
