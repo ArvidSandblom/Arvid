@@ -11,6 +11,7 @@ namespace Final_uppgift
     {
         static void Main(string[] args)
         {
+            Random rnd = new Random();
             string pName;
             string pClass;
             int pHP;
@@ -18,7 +19,8 @@ namespace Final_uppgift
             bool classError = false;            
             string armour;
             string weapon;
-            string staff;
+            string staff;       
+            
 
             float gold = 5;
 
@@ -68,23 +70,32 @@ namespace Final_uppgift
                         break;
                     default:                        
                         WriteLine("YOU FOOL! THAT IS NOT A VALID CLASS!");
-                        WriteLine("I will give you the choice to choose again and this time, do it wisely");
+                        if (classError) { WriteLine("Alright, piss off"); break; }
+                        else { WriteLine("I will give you the choice to choose again and this time, do it wisely"); }
                         classError = true;
                         continue;
                 }
             }
-            classError = false;    
-
+            classError = false;
             WriteLine($"Now that is an excellent class.\nI believe {pClass} will suit you quite well");
             WriteLine("He begins opening the doors and you are greeted by a huge stone chamber with ancient statues of soldiers lining the walls");
             WriteLine("At the end of the hall you are met with three doors of different colours");
-            WriteLine("As you gaze upon the doors you remember something the old man told you: 'When it comes to the doors, common knowledge applies'");
+            WriteLine("As you gaze upon the doors you remember something the old man told you: 'When it comes to the doors, common knowledge as to difficulty applies'");
             WriteLine("Now you must choose one of the doors: 1.Red, 2.Black or 3.Yellow");
             string choice = Console.ReadLine();
             switch (choice)
             {
                 case "1":
+                    WriteLine("As you open the red door");
+                    int roll = rnd.Next(1,10);
                     break;
+                case "2":
+                    break;
+                case "3":
+                    break;
+                default:    
+                    break;
+
             }
         }
         static void WriteLine(string text, int sleepMs = 35)
@@ -131,6 +142,36 @@ namespace Final_uppgift
             }
 
             Console.Write("\n");
+        }
+        void newRoom(string roomType)
+        {
+            
+            Random rnd = new Random();
+            int roll = rnd.Next(1, 11);
+            switch (roomType)
+            {
+                case "Green":
+                    switch (roll)
+                    {
+                        case 0:
+                            
+                            break;
+                    }
+                    break;
+                case "Yellow":
+                    break;
+                case "Red":
+                    break;
+                case "Black":
+                    break;                
+                    
+            }
+        }
+        void birthNewEnemy()
+        {
+            int health;
+            string name;
+            int level;
         }
         void castSpell(string spellName)
         {
